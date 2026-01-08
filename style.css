@@ -21,6 +21,12 @@
     --colord5: #1B2021;
     
 }
+html{
+	height: 100%;
+}
+body{
+	height: 100%
+}
 .topnav{
 	position: fixed;
 	z-index: 4;
