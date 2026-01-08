@@ -23,9 +23,11 @@
 }
 html{
 	height: 100%;
+    width: 100%;
+    backgound-color: var(--colord3, black);
 }
 body{
-	height: 100%
+    backgound-color: var(--colord3, black);
 }
 .topnav{
 	margin: 0%;
