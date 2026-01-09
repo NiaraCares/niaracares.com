@@ -72,7 +72,7 @@ body{
 }
 
 .side_float{
-    overflow: hidden;
+    overflow: scroll;
     display: inline-block;
     float: left;
     width: 100%;
@@ -86,7 +86,7 @@ body{
 }
 
 .center_float{
-    overflow: hidden;
+    overflow: scroll;
     display: inline-block;
     float: top;
     width: 100%;
@@ -101,15 +101,15 @@ body{
 }
 
 .section1_parent{
-    overflow: hidden;
+    overflow: scroll;
     float: top;
     width: 100%;
     margin: auto;
-    padding: 15px;
+    padding: 50px;
     background-color: var(--colord2, yellow);
 }
 .section2_parent{
-    overflow: hidden;
+    overflow: scroll;
     float: top;
     width: 100%;
     margin: auto;
