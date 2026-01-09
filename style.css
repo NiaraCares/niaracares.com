@@ -30,7 +30,7 @@ body{
     background-color: var(--colord3, black);
 }
 .hero{
-	width: 200px;
+	max-width: 200px;
 	float: right;
 }
 .topnav{
