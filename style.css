@@ -29,6 +29,10 @@ html{
 body{
     background-color: var(--colord3, black);
 }
+.hero{
+	width: 200px;
+	float: right;
+}
 .topnav{
 	margin: 0%;
 	padding: 0px;
