@@ -23,11 +23,13 @@
 }
 html{
 	height: 100%;
-    width: 100%;
-    background-color: var(--colord3, black);
+  width: 100%;
+  margin: 0px;
+  background-color: var(--colord3, black);
 }
 body{
-    background-color: var(--colord3, black);
+  margin: 0px;
+  background-color: var(--colord3, black);
 }
 .hero{
 	max-width: 200px;
@@ -38,117 +40,115 @@ body{
 	padding: 0px;
 	position: fixed;
 	z-index: 4;
-    overflow: hidden;
+  overflow: hidden;
 	width: 100%;
-    background-color: var(--colord3, black);
-    box-shadow: 0px 10px 10px var(--colord3, black);
+  background-color: var(--colord3, black);
+  box-shadow: 0px 10px 10px var(--colord3, black);
     
 }
 
 .topnav a{
-    float: right;
-    color: var(--colord1, white);
-    text-align: center;
-    text-decoration: bold;
-    font-family: var(--global-font-family, sans-serif);
-    font-size: 20px;
-    padding: 20px 20px;
+  float: right;
+  color: var(--colord1, white);
+  text-align: center;
+  text-decoration: bold;
+  font-family: var(--global-font-family, sans-serif);
+  font-size: 20px;
+  padding: 20px 20px;
 }
 
 .topnav a:hover{
-    background-color: var(--colord1, lightpink);
-    color: var(--colord5, black);
+  background-color: var(--colord1, lightpink);
+  color: var(--colord5, black);
 }
 
 .topnav p{
-    float: left;
-    color: var(--colord1, white);
-    text-align: center;
-    text-decoration: none;
-    font-family: var(--global-font-family, sans-serif);
-    font-size: 16px;
-    padding: 2px 2px;
+  float: left;
+  color: var(--colord1, white);
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--global-font-family, sans-serif);
+  font-size: 16px;
+  padding: 2px 2px;
 }
 
 .logo a{
-    float: left;
-    padding: 2px 2px;
+  float: left;
+  padding: 2px 2px;
 }
 
 .side_float{
-    overflow: scroll;
-    display: inline-block;
-    float: left;
-    width: 95%;
-    padding: 25px;
-    text-align: center;
-    font-family: var(--global-font-family, sans-serif);
-    background-color: var(--colord1, gray);
-    border-radius: var(--rounded, 20px);
-    box-shadow: 0px 4px 8px var(--colord5, black), 0px 6px 20px var(--colord4, gray);
-    margin: auto;
+  overflow: hidden;
+  float: left;
+  width: 45%;
+  padding: 25px;
+  text-align: center;
+  font-family: var(--global-font-family, sans-serif);
+  background-color: var(--colord1, gray);
+  border-radius: var(--rounded, 20px);
+  box-shadow: 0px 4px 8px var(--colord5, black), 0px 6px 20px var(--colord4, gray);
+  margin: auto;
 }
 
 .center_float{
-    overflow: scroll;
-    display: inline-block;
-    float: top;
-    width: 95%;
+  overflow: hidden;
+  display: inline-block;
+  float: top;
+  width: 95%;
 	margin: auto;
-    padding: 25px;
-    text-align: center;
-    font-family: var(--global-font-family, sans-serif);
-    background-color: var(--colord1, gray);
-    border-radius: var(--rounded, 20px);
-    box-shadow: 0px 4px 8px var(--colord5, black), 0px 6px 20px var(--colord4, gray);
+  padding: 25px;
+  text-align: center;
+  font-family: var(--global-font-family, sans-serif);
+  background-color: var(--colord1, gray);
+  border-radius: var(--rounded, 20px);
+  box-shadow: 0px 4px 8px var(--colord5, black), 0px 6px 20px var(--colord4, gray);
 }
 
 .section1_parent{
-    overflow: scroll;
-    float: top;
-    width: 100%;
-    margin: auto;
-    padding: 50px;
-    background-color: var(--colord2, yellow);
+  overflow: hidden;
+  float: top;
+  width: 100%;
+  margin: auto;
+  padding: 50px;
+  background-color: var(--colord2, yellow);
 }
 .section2_parent{
-    overflow: scroll;
-    float: top;
-    width: 100%;
-    margin: auto;
-    padding: 15px;
-    background-color: var(--colord3, green);
+  overflow: hidden;
+  float: top;
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  background-color: var(--colord3, green);
 }
 .triplet_col{
 	overflow: hidden;
-    float: top;
-    width: 75%;
-    margin: auto;
-    padding: 15px;
-    background-color: var(--colord1, white);
+  float: top;
+  width: 75%;
+  margin: auto;
+  padding: 15px;
+  background-color: var(--colord1, white);
 }
 
 .col_blurb{
 	width: 30%;
-    float: left;
-    padding: 1%;
-
+  float: left;
+  padding: 1%;
+  font-family: var(--h1-font-family, sans-serif);
 }
 .img{
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 .h1{
-    font-size: 40px;
-    text-decoration: bold;
-    font-family: var(--h1-font-family, sans-serif);
+  font-size: 40px;
+  text-decoration: bold;
+  font-family: var(--h1-font-family, sans-serif);
 }
 
 .p{
-    font-family: var(--global-font-family, sans-serif);
-    font-size: 16px;
+  font-family: var(--global-font-family, sans-serif);
+  font-size: 16px;
 }
