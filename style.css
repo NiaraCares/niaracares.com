@@ -106,7 +106,6 @@ body{
 
 .section1_parent{
   	overflow: hidden;
-  	float: top;
   	width: 100%;
   	margin: auto;
   	padding: 50px;
@@ -114,7 +113,6 @@ body{
 }
 .section2_parent{
   	overflow: hidden;
-  	float: top;
   	width: 100%;
   	margin: auto;
   	padding: 15px;
