@@ -108,7 +108,7 @@ body{
   	overflow: hidden;
   	width: 100%;
   	margin: auto;
-  	padding: 100px;
+  	padding: 10px;
   	background-color: var(--colord2, yellow);
 }
 .section2_parent{
