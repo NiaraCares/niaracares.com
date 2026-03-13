@@ -1,5 +1,6 @@
 :root{
-    --global-font-family: Arial, sans-serif;
+    --global-font-family: Inter, sans-serif;
+	font-feature-settings: 'liga' 1, 'calt' 1;
     --h1-font-family: Copperplate, Arial, sans-serif;
     --rounded: 20px;
     /*COLOR SCHEME 1*/
@@ -20,6 +21,9 @@
     --colord4: #30343F;
     --colord5: #1B2021;
     
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
 }
 html{
 	height: 100%;
