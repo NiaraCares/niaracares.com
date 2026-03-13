@@ -127,7 +127,7 @@ body{
 }
 
 .pink_transition{
-	background-image: "IMG_7978.jpg";
+	background-image: "./images/transition1.png";
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
