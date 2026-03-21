@@ -117,11 +117,25 @@ body{
 	margin-right: 20px;
 	width: 30%;
 }
-
+.double_col{
+	overflow: hidden;
+  	float: top;
+  	width: 90%;
+  	margin: auto;
+  	padding: 15px;
+  	background-color: var(--colord1, white);
+}
+.double_col_sec{
+	width: 45%;
+  	float: left;
+  	padding: 1%;
+  	font-family: var(--h1-font-family, sans-serif);
+}
 .section1_parent{
   	overflow: hidden;
   	width: 100%;
   	/*margin: auto;*/
+	padding-top: 100px;
   	padding: 30px;
   	background-color: var(--colord2, yellow);
 }
