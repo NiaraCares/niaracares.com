@@ -25,21 +25,21 @@
 @supports (font-variation-settings: normal) {
   :root { font-family: InterVariable, sans-serif; }
 }
+
 html{
 	height: 100%;
   	width: 100%;
   	margin: 0px;
+	padding: 0px;
   	background-color: var(--colord3, black);
 }
+
 body{
+	width: 100%;
   	margin: 0px;
   	background-color: var(--colord3, black);
 }
-.hero{
-	margin-left: 20px;
-	margin-right: 20px;
-	float: right;
-}
+
 .topnav{
 	margin: 0%;
 	padding: 20px;
@@ -112,6 +112,12 @@ body{
   	box-shadow: 0px 4px 8px var(--colord5, black), 0px 6px 20px var(--colord4, gray);
 }
 
+.hero{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 30%;
+}
+
 .section1_parent{
   	overflow: hidden;
   	width: 100%;
@@ -119,6 +125,7 @@ body{
   	padding: 10px;
   	background-color: var(--colord2, yellow);
 }
+
 .section2_parent{
   	overflow: hidden;
   	width: 100%;
