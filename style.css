@@ -95,10 +95,9 @@ body{
   	margin: auto;
 }
 
-.center_float{
+.content_holder{
   	overflow: hidden;
   	display: inline-block;
-  	float: top;
   	width: 95%;
 	mar-top: 100px;
 	margin-left: 10px;
