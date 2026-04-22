@@ -42,8 +42,8 @@ body{
 }
 
 .topnav{
-	/*margin: 0%;
-	padding: 20px;*/
+	margin: 0%;
+	padding: 20px;
 	position: fixed;
 	z-index: 4;
   	overflow: hidden;
