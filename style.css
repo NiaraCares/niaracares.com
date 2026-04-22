@@ -71,7 +71,7 @@ body{
 .topnav p{
   	float: left;
   	color: var(--colord1, white);
-  	text-align: center;
+  	text-align: bottom;
   	text-decoration: none;
   	font-family: var(--global-font-family, sans-serif);
   	font-size: 16px;
