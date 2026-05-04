@@ -89,10 +89,20 @@ body{
 	padding: 50px 0px 50px 0px;
   	background-color: var(--colord2, black);
 }
+
 .formcarry-container{
 	background-color: var(--colord1, white);
 	height: 100px;
 	padding: 50px 20px 50px 20px;
+}
+
+.formcarry-form label {
+  display: block;
+  padding: 12px 0 2px 0;
+  letter-spacing: -0.2px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .side_float{
