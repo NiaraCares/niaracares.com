@@ -100,7 +100,7 @@ body{
 
 .formcarry-container{
 	background-color: var(--colord1, white);
-	height: 200px;
+	height: 500px;
 	padding: 50px 20px 50px 20px;
 }
 
@@ -120,8 +120,7 @@ body{
 .formcarry-form float {
 	float: left;
 	margin: 10px 20px 10px 0px;
-	
-	
+	width: 45%;	
 }
 
 .side_float{
