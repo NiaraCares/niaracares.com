@@ -95,6 +95,7 @@ body{
   	height: 100px;
 	padding: 50px 0px 50px 0px;
   	background-color: var(--colord1, white);
+	line-height: 100px;
 }
 
 
