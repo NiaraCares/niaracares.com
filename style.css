@@ -60,7 +60,7 @@ body{
 	text-decoration: bold;
 	font-family: var(--global-font-family, sans-serif);
 	font-size: 20px;
-	padding: 20px 20px 20px 20px;
+	padding: 20px 30px 0px 20px;
 }
 
 .topnav a:hover{
