@@ -92,17 +92,29 @@ body{
 
 .formcarry-container{
 	background-color: var(--colord1, white);
-	height: 100px;
+	height: 200px;
 	padding: 50px 20px 50px 20px;
 }
 
 .formcarry-form label {
-  display: block;
-  padding: 12px 0 2px 0;
-  letter-spacing: -0.2px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 700;
+  	display: block;
+	padding: 12px 0 2px 0;
+	letter-spacing: -0.2px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.formcarry-form input {
+	display: block;
+}
+
+.formcarry-form float {
+	display: block;
+	float: left;
+	margin: 10px 20px 10px 0px;
+	
+	
 }
 
 .side_float{
