@@ -92,7 +92,7 @@ body{
 
 .spacer2{
 	width: 100%;
-  	height: 100px;
+  	height: 50px;
 	padding: 50px 0px 50px 0px;
   	background-color: var(--colord1, white);
 }
