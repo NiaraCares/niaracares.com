@@ -139,6 +139,10 @@ body{
 	width: 45%;	
 }
 
+.float_under{
+	width: 100%;
+}
+
 .side_float{
   	overflow: hidden;
   	float: left;
