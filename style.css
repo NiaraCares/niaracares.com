@@ -48,8 +48,8 @@ body{
 	z-index: 4;
   	overflow: hidden;
 	width: 100%;
-  	background-color: var(--colord3, black);
-  	box-shadow: -10px 10px 12px var(--colord3, black);
+  	background: linear-gradient(black, var(--colord3, purple));
+  	box-shadow: -10px 10px 12px var(--colord3, purple);
     
 }
 
