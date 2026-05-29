@@ -101,6 +101,9 @@ body{
 .formcarry-container{
 	background-color: var(--colord1, white);
 	height: 600px;
+	width: 45%px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 50px 20px 50px 20px;
 }
 
