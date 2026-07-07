@@ -11,7 +11,7 @@
 	--color3: #ea638cff; /*blush-rose*/
 	--color4: #31d6e6ff; /*strong-cyan*/
 	--color5: #6bd346ff; /*radioactive-grass*/
-	--colord3t: rgba(90, 33, 62, 0.5); /*translucent-crimson-violet*/
+	--color1t: rgba(90, 33, 62, 0.5); /*translucent-crimson-violet*/
 	
 	/* CSS HSL */
 	--crimson-violet: hsla(329, 46%, 24%, 1);
@@ -129,7 +129,7 @@ body{
 
 
 .formcarry-container{
-	background-color: var(--colord4, gray);
+	background-color: var(--color5, gray);
 	height: 600px;
 	width: 45%;
 	margin-left: auto;
@@ -161,7 +161,7 @@ body{
 	padding: 12px 20px;
 	border-radius: 8px;
 	border-color: transparent;
-	background-color: var(--colord2, green);
+	background-color: var(--color3, green);
 	font-weight: 700;
 	font-size: 20px;
 }
@@ -190,9 +190,9 @@ body{
   	padding: 25px;
   	text-align: center;
   	font-family: var(--global-font-family, sans-serif);
-  	background-color: var(--colord1, gray);
+  	background-color: var(--color2, white);
   	border-radius: var(--rounded, 20px);
-  	box-shadow: 0px 4px 8px var(--colord5, black), 0px 6px 20px var(--colord4, gray);
+  	box-shadow: 0px 4px 8px var(--colord5, black), 0px 6px 20px var(--color1, gray);
   	margin: auto;
 }
 
@@ -207,9 +207,9 @@ body{
   	padding: 25px;
   	text-align: center;
   	font-family: var(--global-font-family, sans-serif);
-  	background-color: var(--colord1, gray);
+  	background-color: var(--color1, black);
   	border-radius: var(--rounded, 20px);
-  	box-shadow: 0px 4px 8px var(--colord5, black), 0px 6px 20px var(--colord4, gray);
+  	box-shadow: 0px 4px 8px var(--color1, black), 0px 6px 20px var(--color1t, gray);
 }
 
 .hero{
@@ -223,7 +223,7 @@ body{
   	width: 90%;
   	margin: auto;
   	padding: 15px;
-  	background-color: var(--colord1, white);
+  	background-color: var(--color2, white);
 }
 .double_col_sec{
 	width: 45%;
@@ -237,7 +237,7 @@ body{
   	/*margin: auto;*/
   	padding: 100px, 0px, 100px,0px;
 	/*z-index: 3;*/
-  	background-color: var(--colord2, yellow);
+  	background-color: var(--color3, yellow);
 }
 
 .section2_parent{
