@@ -3,25 +3,55 @@
 	font-feature-settings: 'liga' 1, 'calt' 1;
     --h1-font-family: Copperplate, Arial, sans-serif;
     --rounded: 20px;
-    /*COLOR SCHEME 1*/
-    /*
-    --colord1: #FFD9DA;
-    --colord2: #EA638C;
-    --colord3: #89023E;
-    --colord4: #30343F;
-    --colord5: #1B2021;
+    
+    /*COLOR SCHEME*/
+    
+    --color1: #5a213eff; /*crimson-violet*/
+	--color2: #ffd9daff; /*soft-blush*/
+	--color3: #ea638cff; /*blush-rose*/
+	--color4: #31d6e6ff; /*strong-cyan*/
+	--color5: #6bd346ff; /*radioactive-grass*/
+	--colord3t: rgba(90, 33, 62, 0.5); /*translucent-crimson-violet*/
+	
+	/* CSS HSL */
+	--crimson-violet: hsla(329, 46%, 24%, 1);
+	--soft-blush: hsla(358, 100%, 93%, 1);
+	--blush-rose: hsla(342, 76%, 65%, 1);
+	--strong-cyan: hsla(185, 78%, 55%, 1);
+	--radioactive-grass: hsla(104, 62%, 55%, 1);
+	
+	/* SCSS HEX 
+	$crimson-violet: #5a213eff;
+	$soft-blush: #ffd9daff;
+	$blush-rose: #ea638cff;
+	$strong-cyan: #31d6e6ff;
+	$radioactive-grass: #6bd346ff;
+	
+	SCSS HSL 
+	$crimson-violet: hsla(329, 46%, 24%, 1);
+	$soft-blush: hsla(358, 100%, 93%, 1);
+	$blush-rose: hsla(342, 76%, 65%, 1);
+	$strong-cyan: hsla(185, 78%, 55%, 1);
+	$radioactive-grass: hsla(104, 62%, 55%, 1);
+	
+	SCSS RGB
+	$crimson-violet: rgba(90, 33, 62, 1);
+	$soft-blush: rgba(255, 217, 218, 1);
+	$blush-rose: rgba(234, 99, 140, 1);
+	$strong-cyan: rgba(49, 214, 230, 1);
+	$radioactive-grass: rgba(107, 211, 70, 1);
+	
+	SCSS Gradient 
+	$gradient-top: linear-gradient(0deg, #5a213eff, #ffd9daff, #ea638cff, #31d6e6ff, #6bd346ff);
+	$gradient-right: linear-gradient(90deg, #5a213eff, #ffd9daff, #ea638cff, #31d6e6ff, #6bd346ff);
+	$gradient-bottom: linear-gradient(180deg, #5a213eff, #ffd9daff, #ea638cff, #31d6e6ff, #6bd346ff);
+	$gradient-left: linear-gradient(270deg, #5a213eff, #ffd9daff, #ea638cff, #31d6e6ff, #6bd346ff);
+	$gradient-top-right: linear-gradient(45deg, #5a213eff, #ffd9daff, #ea638cff, #31d6e6ff, #6bd346ff);
+	$gradient-bottom-right: linear-gradient(135deg, #5a213eff, #ffd9daff, #ea638cff, #31d6e6ff, #6bd346ff);
+	$gradient-top-left: linear-gradient(225deg, #5a213eff, #ffd9daff, #ea638cff, #31d6e6ff, #6bd346ff);
+	$gradient-bottom-left: linear-gradient(315deg, #5a213eff, #ffd9daff, #ea638cff, #31d6e6ff, #6bd346ff);
+	$gradient-radial: radial-gradient(#5a213eff, #ffd9daff, #ea638cff, #31d6e6ff, #6bd346ff);
     */
-
-    
-    /*COLOR SCHEME 2*/
-    
-    --colord1: #FFD9DA;
-    --colord2: #EA638C;
-    --colord3: #5A213E;
-    --colord4: #30343F;
-    --colord5: #1B2021;'
-	--colord3t: rgba(90, 33, 62, 0.5)
-    
 }
 @supports (font-variation-settings: normal) {
   :root { font-family: InterVariable, sans-serif; }
@@ -32,13 +62,13 @@ html{
   	width: 100%;
   	margin: 0px;
 	padding: 0px;
-  	background-color: var(--colord3, black);
+  	background-color: var(--color1, black);
 }
 
 body{
 	width: 100%;
   	margin: 0px;
-  	background-color: var(--colord3, black);
+  	background-color: var(--color1, black);
 }
 
 .topnav{
@@ -48,8 +78,8 @@ body{
 	z-index: 4;
   	overflow: hidden;
 	width: 100%;
-  	background: linear-gradient(black, var(--colord3, purple));
-  	box-shadow: -10px 10px 14px var(--colord3, purple);
+  	background: linear-gradient(black, var(--color1, black));
+  	box-shadow: -10px 10px 14px var(--color1, black);
     
 }
 
@@ -64,13 +94,13 @@ body{
 }
 
 .topnav a:hover{
-  	background-color: var(--colord1, lightpink);
-  	color: var(--colord5, black);
+  	background-color: var(--color2, lightpink);
+  	color: var(--color1, black);
 }
 
 .topnav p{
   	float: left;
-  	color: var(--colord1, white);
+  	color: var(--color2, white);
   	text-align: bottom;
   	text-decoration: none;
   	font-family: var(--global-font-family, sans-serif);
@@ -87,14 +117,14 @@ body{
 	width: 100%;
   	height: 50px;
 	padding: 50px 0px 50px 0px;
-  	background-color: var(--colord2, black);
+  	background-color: var(--color1, black);
 }
 
 .spacer2{
 	width: 100%;
   	height: 30px;
 	padding: 50px 0px 50px 0px;
-  	background-color: var(--colord1, white);
+  	background-color: var(--color2, white);
 }
 
 
