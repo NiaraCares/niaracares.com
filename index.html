@@ -3,42 +3,120 @@
   <!--- TOP COMMENT: Just get started and keep making progress. We will improve as we go.--->
   <head>
     <title>NiaraCares Home Page</title>
-    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
-    <link rel = "icon" type = "image/x-icon" href = "Logo_White.PNG">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <meta charset = "UTF-8" />
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name = "description" content = "[PLACEHOLDER PAGE DESCRIPTION]" />
+    <meta property = "og:type" content = "website" />
+    <meta property = "og:title" content = "NiaraCares.com" />
+    <meta property = "og:url" content = "https://www.niaracares.com" />
+    <meta propery = "og:image" content = "./images/landingpagehero.png" />
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge" />
+    <!-- -Form styling --->
+    <!--<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" /> --->
+    <link rel = "icon" type = "image/x-icon" href = "images/Logo_Puce.PNG"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://rsms.me/"/>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css"/>
   </head>
-  <body>
-    <!---- BEGIN NAVIGATION BAR --->
-    <div class = "topnav">
-      <div class = "logo">
-        <a class = "active" href = "index.html"> <img width = "128pxpx" src = "NCCA_Logo+Title.png"></a>
-      </div>
-      <p><em>        Passion and Purpose</em></p>
-      <a href = "classes.html">Classes</a>
-      <a href = "contact.html">Contact</a>
-      <a href = "about.html">About</a>
-    </div>
-    <!--- END NAVIGATION BAR --->
 
-    <div class = "section1_parent">
-      <h1>
-        1-on-1 Live Coding Classes<br>
-      </h1>
-      <h2>
-        taught by an experienced, Ivy League-educated private tutor<br>
-      </h2>
-      <ul>
-        <li>Python Programming</li>
-        <li>Data Structures & Algorithms</li>
-        <li>Machine Learning & AI Development</li>
-        <li>AI Ethics</li>
-      </ul>
-      <img src = "images/landingpagehero.png">
-    </div>
+  <body>
+    <header>
+      <!---- BEGIN NAVIGATION BAR --->
+      <nav class = "topnav">
+        <div class = "logo">
+          <a id = "logo-link" href = "index.html"> <img width = "150px" src = "images/NCCA_Logo+Title.png"></a>
+        </div>
+        <p><em>        Passion and Purpose</em></p>
+        <a href = "classes.html">Classes</a>
+        <a href = "contact.html">Contact</a>
+        <a href = "about.html">About</a>
+      </nav>
+      <!--- END NAVIGATION BAR --->
+
+      <!--- BEGIN SPACER DIV --->
+      <div class = "spacer">
+      </div>
+      <!--- END SPACER DIV --->
+    </header>
+
+    <main>
+      <section id = "hero-landing">
+        <div class = "hero">
+          <div class = "hero-text-container">
+            <h1>1-on-1 Live Coding Classes</h1>
+            <h2><i>taught by an experienced, Ivy League-educated private tutor!</i></h2>
+            <div class = "hero-text-list-container">
+              <ul>
+                <li>Give your child a head start in a tech-centered world!</li>
+                <li>Augment your child's education with an professional private Computer Science Instructor!</li>
+                <li>Empower your child to ethically master AI and machine learning skills!</li>
+                <li>Python Programming</li>
+                <li>Data Structures & Algorithms</li>
+                <li>Machine Learning & AI Development</li>
+                <li>AI Ethics</li>
+              </ul>
+            </div>
+          </div>
+          <button class = "button-landing">
+            <h2>Book Now!</h2>
+            <p class = "button-subtitle">Free Consultation</p>
+          </button>
+        </div>
+      </section>
+
+     <section>
+        <div class = "section2_parent">
+          <div class = "triplet_col">
+            <h2>Benefits of Learning with Me</h2>
+            <div class = "col_blurb">
+              <h3>Experience</h3>
+              <hr>
+              <ul>
+                <li>Individualized curriculum and study</li>
+                <li>Project-based Learning Model</li>
+                <li>Unique Learning Methodology honed over 5+ years that focuses on deep learning, demonstrable retention, and creative application rather than rote memorization</li>
+              </ul>
+            </div>
+            <div class = "col_blurb">
+              <h3>Convenience</h3>
+              <hr>
+              <ul>
+                <li>Fully remote structure means your child can learn from the comfort of their home</li>
+              </ul>
+            </div>
+            <div class = "col_blurb">
+              <h3>Adaptability</h3>
+              <hr>
+              <ul>
+                <li>Material is adaptable to various difficulty levels, including elementary, middle, and high school aged students</li>
+                <li>Quarterly check-ins about your learner's progress are available</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+     
+        <img class = "transition" src = "./images/transition3_pinktopink.png" alt = "visual color transition"/>
+      </section>
+
+    </main>
+ 
+  <footer class = "footer">
+    &copy; NiaraCares Tutoring 2026
+    <address>
+      <h2>NiaraCares Coding Academy</h2>
+        <p>
+            Ithaca, NY 14850 <br/>
+            United States
+        </p>
+        <p>
+          <a href = "tel:+6073392963">Phone: (607) 339-2963</a>
+        </p>
+        <p>
+            Email: info@niaracares.com
+        </p>
+    </address>    
+  </footer>
    
   </body>
 </html>
-  </body>
-</html>
+ 
